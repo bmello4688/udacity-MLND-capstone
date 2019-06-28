@@ -26,8 +26,7 @@ My team and I are currently working on a triple quad mass spectrometer that is c
 
 ### Datasets and Inputs
 
-The datasets that will be used in this project were collected from our instrument. The instrument was sent out for testing and
-12 different substances were tested. The data files we got back are the results from that testing. The data files have been modified to abstract out any sensitive details such as the substance name and mass pairs. The data has also been filtered to remove any malformed data because of a hardware or any other error.
+The datasets that will be used in this project were generated from collected samples from our instrument. The instrument was sent out for testing and 12 different substances were tested. The data files we got back are the results from that testing. The datasets are generated from these data files. The datasets have been modified to abstract out any sensitive details such as the substance name and mass pairs. Most importantly the intensities are all generated to mimic the shape of the collected data. The data has also been filtered to remove any malformed data because of a hardware or any other error. There is no proprietary data associated with this project. The model that will be built will need to be re-trained on the actual proprietary dataset to have it work with our instrument. The generated data should be more than adequate in evaluating a model. In most cases, I have between 50 and 80 samples for each substance I am testing for. I realize that this may not be enough, but I am also trying to gauge how many samples will be needed if extending out the substance library. If a particular compound is performing poorly from lack of samples I will remove it from the test.  
 
 Data file columns and example:
 
